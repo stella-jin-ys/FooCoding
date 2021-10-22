@@ -109,7 +109,7 @@ const bookImgs = {
     "https://www.booklistqueen.com/wp-content/uploads/dear-emmie-blue-lia-louis.jpg",
   "foundation":
     "https://www.booklistqueen.com/wp-content/uploads/foundation-isaac-asimov.jpg",
-  "in_five_years0":
+  "in_five_years":
     "https://www.booklistqueen.com/wp-content/uploads/in-five-years-rebecca-serle.jpg"
 };
 
