@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(61, 61, 61);
+    box-shadow: grey ;
+    padding: 35px;
+}
+li > img{
+    padding-top: 20px;
+}
+li > p{
+    padding-top: 10px;
+}
