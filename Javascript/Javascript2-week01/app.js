@@ -91,25 +91,25 @@ function getBooksInfo(obj) {
 //getBooksInfo(booksInfo);
 
 const bookImgs = {
-  "001":
+  "the_four_winds":
     "https://www.booklistqueen.com/wp-content/uploads/the-four-winds-kristin-hannah.jpg",
-  "002":
+  "the_good_sister":
     "https://www.booklistqueen.com/wp-content/uploads/the-good-sister-sally-hepworth.jpg",
-  "003":
+  "the_survivors":
     "https://www.booklistqueen.com/wp-content/uploads/the-survivors-jane-harper.jpg",
-  "004":
+  "untamed":
     "https://www.booklistqueen.com/wp-content/uploads/untamed-glennon-doyle.jpg",
-  "005":
+  "such_a_fun_age":
     "https://www.booklistqueen.com/wp-content/uploads/such-a-fun-age-kiley-reid.jpg",
-  "006":
+  "the_nightingale":
     "https://www.booklistqueen.com/wp-content/uploads/the-nightingale-kristin-hannah.jpg",
-  "007":
+  "the_guest_list":
     "https://www.booklistqueen.com/wp-content/uploads/the-guest-list-lucy-foley.jpg",
-  "008":
+  "dear_emmie_blue":
     "https://www.booklistqueen.com/wp-content/uploads/dear-emmie-blue-lia-louis.jpg",
-  "009":
+  "foundation":
     "https://www.booklistqueen.com/wp-content/uploads/foundation-isaac-asimov.jpg",
-  "010":
+  "in_five_years0":
     "https://www.booklistqueen.com/wp-content/uploads/in-five-years-rebecca-serle.jpg"
 };
 
