@@ -121,6 +121,7 @@ function getBookImgs(obj) {
   const imgValues = Object.values(obj);
   for (let i = 0; i < lis.length; i++) {
     lis[i].setAttribute("id", imgKeys[i]);
+    //if (lis[i].id===imgKeys[i]){img.src=`${imgValues[i]}`}
     lis[i].innerHTML += `<img src=${imgValues[i]}>`;
     console.log(lis);
   }
