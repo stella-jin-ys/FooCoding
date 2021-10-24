@@ -123,7 +123,7 @@ function getBookImgs(obj) {
     lis[i].setAttribute("id", imgKeys[i]);
     //if (lis[i].id===imgKeys[i]){img.src=`${imgValues[i]}`}
     lis[i].innerHTML += `<img src=${imgValues[i]}>`;
-    console.log(lis);
+    //console.log(lis);
   }
 }
 
