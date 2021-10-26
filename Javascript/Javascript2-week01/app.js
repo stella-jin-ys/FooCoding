@@ -115,14 +115,16 @@ const bookImgs = {
 
 function getBookImgs(obj) {
   getBooksInfo(booksInfo);
-  const img = document.createElement("img");
+  
   const lis = document.querySelectorAll("li");
   const imgKeys = Object.keys(obj);
   const imgValues = Object.values(obj);
   for (let i = 0; i < lis.length; i++) {
+    const img = document.createElement("img");
+    lis[i].appendChild(img)
     lis[i].setAttribute("id", imgKeys[i]);
-    //if (lis[i].id===imgKeys[i]){img.src=`${imgValues[i]}`}
-    lis[i].innerHTML += `<img src=${imgValues[i]}>`;
+    if (lis[i].id===imgKeys[i]){img.src=`${imgValues[i]}`}
+    //lis[i].innerHTML += `<img src=${imgValues[i]}>`;
     //console.log(lis);
   }
 }
