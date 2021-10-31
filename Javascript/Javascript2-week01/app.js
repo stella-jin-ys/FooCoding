@@ -130,9 +130,7 @@ function getBookImgs(obj) {
 }
 /* for (const[key,value]=Object.entries(bookImages){
         console.log(key,value)
-          if (lis[i]===key){
-            lis[i].innerHTML = `<img src=${value}>
-            }
+          
 } */
 
 getBookImgs(bookImgs);
